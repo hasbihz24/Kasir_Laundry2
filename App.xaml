@@ -1,0 +1,12 @@
+﻿<Application x:Class="Kasir_Laundry2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Kasir_Laundry2"
+             StartupUri="MainWindow.xaml"
+             xmlns:ui="http://firstfloorsoftware.com/ModernUI">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
