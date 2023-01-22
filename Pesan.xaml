@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kasir_Laundry2"
         mc:Ignorable="d"
-        Title="Pesan" MinHeight="768" MinWidth="1366" ResizeMode="CanResize">
+        Title="Pesan" MinHeight="768" MinWidth="1366" ResizeMode="CanResize"
+        >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -57,21 +58,21 @@
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="0.9*"/>
                     </Grid.RowDefinitions>
-                    <StackPanel Grid.Row="0" Orientation="Vertical" Background="#FF88F99E" >
-                        <Label Content=" Detail Pesanan" FontSize="20" FontWeight="Bold"/>
+                    <StackPanel Grid.Row="0" Orientation="Vertical" Background="#03989e" Margin="50 0 80 0"  >
+                        <Label Content=" Detail Pesanan" FontSize="20" FontWeight="Bold" Foreground="White"/>
                         <WrapPanel Margin="10">
-                            <TextBlock Text="Baju/KG" FontSize="15" Width="70"/>
-                            <TextBox x:Name="txtKg" TextWrapping="Wrap" Text="0" Width="120" Margin="20 0 0 0" FontSize="15"/>
+                            <TextBlock Text="Baju/KG" FontSize="15" Width="70" Foreground="White"/>
+                            <TextBox x:Name="txtKg" TextWrapping="Wrap" Text="0" Width="120" Margin="20 0 0 0" FontSize="15" Background="#03989e" Foreground="White"/>
                         </WrapPanel>
                         <WrapPanel  Margin="10">
-                            <TextBlock Text="Bed_Cover" FontSize="15" Width="70"/>
-                            <RadioButton x:Name="rbBCY" Content="Y" Margin="20 0 0 0" />
-                            <RadioButton x:Name="rbBCT" Content="T" Margin="20 0 0 0" />
+                            <TextBlock Text="Bed_Cover" FontSize="15" Width="70" Foreground="White"/>
+                            <RadioButton x:Name="rbBCY" Content="Y" Margin="20 0 0 0"  Foreground="White"/>
+                            <RadioButton x:Name="rbBCT" Content="T" Margin="20 0 0 0"  Foreground="White"/>
                         </WrapPanel >
                         <WrapPanel  Margin="10">
-                            <TextBlock Text="Selimut" FontSize="15" Width="70"/>
-                            <RadioButton x:Name="rbSelY" Content="Y" Margin="20 0 0 0" />
-                            <RadioButton x:Name="rbSelT" Content="T" Margin="20 0 0 0" />
+                            <TextBlock Text="Selimut" FontSize="15" Width="70"  Foreground="White"/>
+                            <RadioButton x:Name="rbSelY" Content="Y" Margin="20 0 0 0"  Foreground="White" />
+                            <RadioButton x:Name="rbSelT" Content="T" Margin="20 0 0 0"  Foreground="White" />
                         </WrapPanel>
                     </StackPanel>
                 </Grid>
@@ -79,18 +80,18 @@
                     <Label Content="Data Pembeli" FontSize="25" FontWeight="Bold"/>
                     <WrapPanel Margin="50 40 0 10">
                         <Image Source="Image/message.png" Margin="0 0 10 0" Width="30" Height="30"/>
-                        <TextBlock Text="Nama" FontSize="18"/>
-                        <TextBox x:Name="txtNama" TextWrapping="Wrap" Text="" Width="400" FontSize="18" Margin="30 0 0 0"/>
+                        <TextBlock Text="Nama   " FontSize="18"/>
+                        <TextBox x:Name="txtNama" TextWrapping="Wrap" Text="" Width="400" FontSize="18" Margin="50 0 0 0"/>
                     </WrapPanel>
                     <WrapPanel Margin="50 30 0 10">
                         <Image Source="Image/location (1).png" Margin="0 0 10 0" Width="30" Height="30"/>
-                        <TextBlock Text="Alamat" FontSize="18"/>
-                        <TextBox x:Name="txtAlamat" TextWrapping="Wrap" Text="" Width="400" FontSize="18" Margin="30 0 0 0"/>
+                        <TextBlock Text="Alamat " FontSize="18"/>
+                        <TextBox x:Name="txtAlamat" TextWrapping="Wrap" Text="" Width="400" FontSize="18" Margin="50 0 0 0"/>
                     </WrapPanel>
                     <WrapPanel Margin="50 30 0 10">
                         <Image Source="Image/phone.png" Margin="0 0 10 0" Width="30" Height="30"/>
                         <TextBlock Text="No.Telp" FontSize="18"/>
-                        <TextBox x:Name="txtTelp"  TextWrapping="Wrap" Text="0" Width="400" FontSize="18" Margin="30 0 0 0"/>
+                        <TextBox x:Name="txtTelp"  TextWrapping="Wrap" Text="0" Width="400" FontSize="18" Margin="50 0 0 0"/>
                     </WrapPanel>
                 </StackPanel>
             </Grid>
